@@ -1,0 +1,63 @@
+
+h1{
+    color:darkslateblue;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top:10px;
+}
+
+ul{
+  position: relative;
+  list-style-type: none;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 0;
+  top: 0;
+  overflow: hidden;
+  border: 1px solid grey;
+  background-color: white;
+}
+
+li{
+  float: left;
+
+}
+
+li a{
+  font-size: 20px;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: lighter;
+  display: block;
+  color: darkslateblue;
+  text-align: center;
+  padding: 5px 20px;
+  text-decoration: none;
+  border-right: 1px solid grey;
+}
+
+li a:hover:not(.active){
+  color: darkslateblue;
+  background-color: aliceblue;
+}
+
+li a.active{
+  color: darkslateblue;
+  background-color: aliceblue;
+}
+
+img{
+    margin-left: 400px;
+}
+
+.content{
+  font-size: 20px;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: lighter;
+  color: darkslateblue;
+  margin-left: 200px;
+  margin-right: 200px;
+  
+
+
+}
